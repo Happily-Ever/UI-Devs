@@ -172,6 +172,7 @@ h4 {
   padding: 0 20px;
   position: fixed;
   align-content: space-between;
+  border: 1px solid rgba(0, 162, 255, 0.945);
 }
 .navBar a {
   color: white;
@@ -185,10 +186,10 @@ h4 {
   justify-content: space-between;
 }
 header {
-  padding-top: 20px;
+  padding-top: 100px;
 }
 .missionText {
-  width: 90%;
+  width: 85%;
   margin: 50px auto;
   box-shadow: 0px 0px 24px rgba(0, 163, 25, 0.2);
   background: rgba(0, 163, 255, 0.8);
@@ -197,6 +198,39 @@ header {
   color: white;
 }
 .missionText h2 {
-  color: black;
+  color: #F1C40E;
   text-align: center;
+}
+.meetTeam h2 {
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  color: #F1C40E;
+}
+.meetTeam .teamFirst,
+.meetTeam .teamSecond {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  margin: 50px auto;
+  box-shadow: 0px 0px 24px rgba(0, 163, 25, 0.2);
+  background: rgba(0, 163, 255, 0.8);
+  padding: 15px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+}
+.meetTeam .teamFirst h4,
+.meetTeam .teamSecond h4 {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  color: #F1C40E;
+}
+.meetTeam .teamFirst img,
+.meetTeam .teamSecond img {
+  margin-top: 10px;
+}
+.meetTeam .teamFirst p a,
+.meetTeam .teamSecond p a {
+  text-decoration: none;
+  color: #F1C40E;
 }
