@@ -1,15 +1,23 @@
 .navBar{
-    background:#00a3ffcc;
-    .flexbox();
+
+    @media @phone{
+        .mobileNav();
+        width:100%;
+    }
+
+    background:rgba(#00a3ffcc);
+    height:134px;
+   .flexbox();
        
         nav{
-            .flexbox();
-           
+            @media @phone{
+                width:100%;
+                .mobileNav();
+            }
+
+            .flexbox(); 
             width:25%;
             justify-content: space-between;
-            
-
-        
         }
 }
 
