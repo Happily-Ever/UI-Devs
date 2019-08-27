@@ -1,22 +1,162 @@
-nav {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  max-width: 1440;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: 'Alice', serif;
+}
+a {
+  font-family: 'Tangerine', cursive;
+  color: white;
+  text-decoration: none;
+}
+.navBar {
   background: #00a3ffcc;
   display: flex;
   justify-content: space-between;
-}
-nav div {
-  margin: 25px;
-  background: black;
-}
-nav a {
-  border: solid red;
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
   align-items: center;
+}
+.navBar nav {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-between;
 }
 .image-top {
   width: 100%;
-  border: solid blue;
 }
 .image-top img {
   width: 100%;
@@ -24,19 +164,20 @@ nav a {
 .mid-page {
   height: 400px;
   padding: 0px;
-  border: solid yellow;
   display: flex;
   justify-content: space-evenly;
 }
 .mid-page .left-box {
-
-  height: 25%;
-  width: 25%;
+  border-radius: 25px;
+  margin-top: 15%;
+  height: 250px;
+  width: 250px;
   background: #00a3ffcc;
 }
 .mid-page .right-box {
-	
-  height: 25%;
-  width: 25%;
+  border-radius: 25px;
+  margin-top: 15%;
+  height: 250px;
+  width: 250px;
   background: #00a3ffcc;
 }
