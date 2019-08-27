@@ -149,12 +149,15 @@ p {
   font-family: 'Alice', serif;
   color: white;
   text-align: justify;
+  text-shadow: 0 0 3px black;
 }
 h2 {
-  padding: 10px;
-  font-family: 'Alice', serif;
-  color: white;
+  font-size: 30px;
+  padding-top: 25px;
+  font-family: 'Tangerine', cursive;
+  color: gold;
   text-align: center;
+  text-shadow: 0 0 3px black;
 }
 .navBar {
   background: rgba(0, 163, 255, 0.8);
@@ -168,6 +171,7 @@ h2 {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
   }
 }
@@ -183,13 +187,16 @@ h2 {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 .image-top {
+  margin-top: 1%;
   width: 100%;
 }
 .image-top img {
   width: 100%;
+  border-radius: 50px;
 }
 .mid-page {
   height: 400px;
@@ -203,6 +210,7 @@ h2 {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 .mid-page .left-box {
@@ -226,6 +234,8 @@ h2 {
   width: 300px;
   background: #00a3ffcc;
   border-radius: 25px;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width:500px) {
   .mid-page .right-box {
