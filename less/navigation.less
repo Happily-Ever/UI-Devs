@@ -1,5 +1,6 @@
 .navBar{
 
+
     @media @phone{
         .mobileNav();
         width:100%;
@@ -8,16 +9,34 @@
     background:rgba(#00a3ffcc);
     height:134px;
    .flexbox();
-       
+   justify-content: space-evenly;
+     
+        .left{
+            @media @phone{
+                .mobileNav();
+            }
+
+            .flexbox();
+            justify-content: space-between;
+            width:80%;
+            margin-right:10%;
+        }
+            a{
+                text-decoration: none;
+            }
+
         nav{
             @media @phone{
                 width:100%;
+                
                 .mobileNav();
             }
 
             .flexbox(); 
-            width:25%;
+            width:35%;
             justify-content: space-between;
+            padding-right:2%;
+     
         }
 }
 
