@@ -13,18 +13,37 @@
     align-content:space-between;
     border: 1px solid @bg;
     box-shadow: 0px 0px 15px rgba(0,0,0, 0.5);;
+    @media @tablet {
+        max-width: 1000px;
+        width: 100%;
+        position:relative;
+    }
     a{
         color: white;
         text-decoration: none;
-        font-size: 35px;
-        text-shadow: 2px 1px rgba(0,0,0,0.5);
+        font-size: 2rem;
+        text-shadow: 2px 1px rgba(0,0,0,0.5); 
+        margin-left: 20px;
+        @media @tablet {
+            margin-left: 0;
+        }
     }
-   nav{
+    nav{
        display:flex;
-       width:275px;
        justify-content: space-between;
+       @media @tablet {
+           flex-direction:column;
+           align-items: flex-end;
+       }
+    }
+    h1 {
+        @media @tablet {
+            font-size: 2rem;
+        }
     }
     img {
-        margin-left: 8%;
+        @media @tablet {
+            width: 150px;
+        }
     }
 }
