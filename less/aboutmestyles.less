@@ -1,16 +1,53 @@
-
-
 header {
-    padding-top: 100px;
-
+    padding-top: 20px;
+    
+    img {
+        width:100%;
+        box-shadow: @boxshadow;
+    }
 }
 
 
 .missionText {
+    margin: 50px auto;
+    box-shadow:@boxshadow;
+    background: @bg;
+    padding: 15px;
+    text-shadow:@fontshadow;
+    color:white;
     .boxstyle(85%);
     h2 {
+        color:black;
         color:@goldfont;
         text-align: center;
+    }
+}
+
+#testTitle {
+    text-align: center;
+    text-shadow: @fontshadow;
+    color: @goldfont;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    text-shadow: @fontshadow;
+    
+    p {
+        padding: 0 20px;
+        font-size: 2rem;
+        font-family:'Tangerine', cursive;
+        line-height: 2rem;
+        color:black;
+    }
+    span {
+        color:@goldfont;
+        font-size:4rem;
+        margin:0 15px;
     }
 }
 
@@ -19,6 +56,8 @@ header {
         text-align: center;
         text-shadow: @fontshadow;
         color: @goldfont;
+        margin-bottom: -45px;
+        margin-top:100px;
     }
     .teamFirst, .teamSecond {
         display: flex;
@@ -26,17 +65,25 @@ header {
         align-items: center;
         .boxstyle(95%);
         text-align:center;
+        flex-wrap: wrap;
         h4{
             text-shadow:@fontshadow;
-            color:#F1C40E;
-       
+            color:@goldfont;
+            margin-top:10px;
         }
         img {
             margin-top: 10px;
+            box-shadow:  0px 0px 10px rgba(0,0,0, 0.5);
         }
         p a{
             text-decoration: none;
-            color: #F1C40E;
+            color: @goldfont;
         }
     }
+}
+
+footer {
+    text-align: center;
+    font-family:'Alice', serif;
+    color: @goldfont;
 }

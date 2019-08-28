@@ -1,27 +1,30 @@
 .navBar {
     // border: @bordertest;
-    max-width:1440px;
+    max-width: 1440px;
     width:100%;
-    margin: 20px auto 0 auto;
+    margin-top: 20px;
     display:flex;
     justify-content: space-between;
     align-items:center;
     height: 60px;
-    background: rgba(0,163,255,0.8);
+    background: @bg;
     padding: 0 20px;
     position:fixed;
     align-content:space-between;
-    border: 1px solid rgba(0, 162, 255, 0.945);
+    border: 1px solid @bg;
+    box-shadow: 0px 0px 15px rgba(0,0,0, 0.5);;
     a{
         color: white;
         text-decoration: none;
         font-size: 35px;
         text-shadow: 2px 1px rgba(0,0,0,0.5);
-    
     }
    nav{
        display:flex;
        width:275px;
        justify-content: space-between;
+    }
+    img {
+        margin-left: 8%;
     }
 }
